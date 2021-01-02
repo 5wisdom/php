@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+*{box-sizing: border-box;}
+html, body{padding: 10px;}
+h2{text-align: center;border-left: 4px solid #9d60ff;;padding-left: 5px;padding-bottom: 10px;font-size: 22px;line-height: 1;}
+#idChk_txt{text-align: center;font-size: 14px;padding: 0 10px 10px;border-bottom: 1px solid #ccc;}
+#idChk_txt p{padding-top: 5px;}
+
+#close{text-align: center;padding-top: 10px;}
+
+
+
+
+
+
+

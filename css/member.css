@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* 회원가입 양식 - 메인 콘텐츠 */
+#main_content{width: 1000px;height: auto;margin: 0 auto;padding: 0 20px;}
+#main_content #join_box{width: 100%;}
+/* form 태그는 왠만하면 안건들임 그대로 가져가자 */
+#main_content #join_box h2{padding: 20px 0 10px;border-bottom: 1px solid #ccc;}
+
+#main_content #join_box .form{padding: 5px 0;font-size: 0;}
+#main_content #join_box .form .label{display: inline-block;vertical-align: middle;width: 160px;padding: 0 5px;}
+#main_content #join_box .form .label label{font-size: 16px;color: #777;}
+
+#main_content #join_box .form .input{display: inline-block;vertical-align: middle;width: calc(100% - 240px);padding: 0 5px;font-size: 14px;}
+#main_content #join_box .form .input input{height: 36px;border-radius: 4px;border: 1px solid #ccc;width: 100%;font-size: 14px;}
+#main_content #join_box .form .input input[name="email1"]{width: 200px;} 
+#main_content #join_box .form .input input[name="email2"]{width: calc(100% - 220px);} 
+
+#main_content #join_box .form .add_btn{display: inline-block;vertical-align: middle;width: 80px;padding: 0 5px;}
+
+.buttons{text-align: right;padding: 10px 0;}
+.buttons img{cursor: pointer;}
+
+
+
+

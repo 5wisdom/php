@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/*공통 스타일 적용 - 게시판 레이아웃의 상단 파트 + 하단버튼*/
+#board_box{width:1000px; margin:0 auto; padding: 20px 0;}
+#board_box h2{border-bottom:1px solid #ccc; font-size: 20px;
+padding-bottom: 10px;}
+
+#board_box .buttons{padding: 20px 0; text-align: right; font-size: 0;}
+#board_box .buttons li{display: inline-block; margin:0 5px;}
+#board_box .buttons li button{padding:8px 16px; font-size: 14px; background-color: #edefed; border-radius:4px; border:none; cursor: pointer;}
+
+/*게시글 작성(board_form.php)*/
+#board_box #board_form{border-bottom:1px solid #ccc;}
+#board_box #board_form li{padding: 10px 0; font-size: 0;}
+#board_box #board_form li > div{display: inline-block; font-size: 14px; color:#777; vertical-align: top; padding: 0 10px;}
+#board_box #board_form li > div.label{width:120px;}
+#board_box #board_form li > div.label label{width: 100%;font-weight: bold; line-height: 36px;}
+
+#board_box #board_form li > div.input{width:calc(100% - 120px);position: relative;}
+#board_box #board_form li > div.input input{width:100%; height:36px; border:1px solid #ccc; border-radius:4px;}
+
+#board_box #board_form li > div.input p{line-height: 36px;}
+
+#board_box #board_form li > div.input textarea{width:100%; height:360px; resize:none; border:1px solid #ccc; border-radius:4px; padding: 8px 0;}
+
+#board_box #board_form li > div.input input[type='file']{border:none; width:auto; position: absolute; top:7px; outline:none; cursor: pointer;}
+
+/*게시판 리스트(board_list.php)*/
+#board_list{border-bottom:1px solid #ccc;}
+#board_list li{padding: 10px 0; font-size: 0;}
+#board_list li span{display: inline-block; font-size: 14px; vertical-align: top; text-align: center; padding: 10px 5px; }
+#board_list li span.field_1{width:60px;}
+#board_list li span.field_2{width:calc(100% - 480px); text-align:left;}
+#board_list li span.field_3{width:80px;}
+#board_list li span.field_4{width:160px;}
+#board_list li span.field_5{width:120px;}
+#board_list li span.field_6{width:60px;}
+
+#board_list li span a{color:#777;}
+#board_list li span a:hover{color:#333;}
+
+#board_list li:first-child{border-bottom:1px solid #ccc;}
+#board_list li:first-child span{font-weight: bold;}
+
+#board_list li:nth-child(even){background-color: #eee;}
+
+
+#page_num{padding: 20px 0; font-size: 0; text-align: center;}
+#page_num li{display: inline-block; margin: 0 10px; font-size: 13px;}
+#page_num li a{display: block; font-size: inherit; color:#777;}
+#page_num li .cur_page{color:#ff0000; font-size: inherit;}
+
+/*게시판 상세보기(board_view.php)*/
+#view_content{}
+#view_content li{padding: 10px 0; font-size: 0; border-bottom:1px solid #ccc;}
+#view_content li:after{content:""; display: block; clear: both;}
+#view_content li span{float:left; font-size: 14px;}
+#view_content li:first-child span:last-child{float:right;}
+#view_content li a{display: block; font-size: 14px;}
+#view_content li p{padding-top: 10px; font-size: 14px;}

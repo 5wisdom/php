@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*메인페이지 상단*/
+#main_img_bar.mainpage{height:500px;}
+#main_img_bar.mainpage .main_img_cont{background-size: cover; background-position: 50% 50%; background-image: url(../img/hero-art-large.jpg); height:100%;}
+
+#main_img_bar.mainpage .main_img_cont .frame{width:1200px; height: 100%; margin: 0 auto; padding: 0 20px;}
+#main_img_bar.mainpage .main_img_cont .frame .main_img_text{width: 50%;height: 100%; position: relative; padding: 0 40px;}
+
+#main_img_bar.mainpage .main_img_cont .frame .main_img_text .main_img_title{position: absolute; top:50%; left:40px; transform:translateY(-50%);}
+#main_img_bar.mainpage .main_img_cont .frame .main_img_text .main_img_title h3{font-size: 24px; color:#777; padding-bottom: 20px;}
+#main_img_bar.mainpage .main_img_cont .frame .main_img_text .main_img_title h3 span{color:#21bda1;}
+
+#main_img_bar.mainpage .main_img_cont .frame .main_img_text .main_img_title h1{font-size: 42px; color:#555;}
+
+
+/*메인페이지 콘텐츠 파트*/
+#main_content{width: 1200px; margin: 0 auto; padding: 40px 0; font-size: 0;}
+
+#main_content > div{display: inline-block; vertical-align: top; font-size: 14px; padding: 0 10px;}
+#main_content .notice{width: 66.66%;}
+#main_content .member_rank{width: 33.33%;}
+#main_content > div > h2{padding-bottom: 20px; border-bottom: 1px solid #ccc; color:#555; font-size: 22px;}
+#main_content > div > ul{padding: 10px 0;}
+#main_content > div > ul > li{font-size: 0;}
+#main_content > div > ul > li > span{display: inline-block; font-size: 14px; padding: 6px 10px; color:#777;}
+
+#main_content > div > ul > li > span > a{color:#777;}
+#main_content > div > ul > li > span > a:hover{color:#474747;}
+
+#main_content > div > ul > li:nth-child(odd){background-color: #eee;}
+
+
+#main_content > div > ul > li > span.field1{width: calc(100% - 300px);}
+#main_content > div > ul > li > span.field2{width: 160px; text-align: center;}
+#main_content > div > ul > li > span.field3{width: 140px; text-align: right;}
+
+#main_content > div > ul > li > span.mem1{width:50px; text-align: right;}
+#main_content > div > ul > li > span.mem2{width:calc(100% - 250px);text-align: center;}
+#main_content > div > ul > li > span.mem3{width:120px; text-align: center;}
+#main_content > div > ul > li > span.mem4{width:80px; text-align: right;}

@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+#admin_box{width:1000px; margin:0 auto; padding: 20px 0;}
+#admin_box h2{border-bottom:1px solid #ccc; font-size: 20px;padding-bottom: 10px;}
+
+#member_list{border-bottom:1px solid #ccc;margin-bottom: 40px;}
+#member_list li{padding: 10px 0; font-size: 0;}
+#member_list li:first-child{font-weight: bold;border-bottom: 1px solid #333;}
+#member_list li:nth-child(even){background: #ccc;}
+
+#member_list li span{display: inline-block; font-size: 14px; vertical-align: top; text-align: center; padding: 10px 0;}
+
+#member_list li span.field1{width: 60px;}
+#member_list li span.field2{width: 100px;}
+#member_list li span.field3{width: 100px;}
+#member_list li span.field4{width: 200px;}
+#member_list li span.field5{width: 200px;}
+#member_list li span.field6{width: calc(100% - 860px);}
+#member_list li span.field7{width: 100px;}
+#member_list li span.field8{width: 100px;}
+
+
+#board_list{border-bottom:1px solid #ccc;margin-bottom: 20px;}
+#board_list li{padding: 10px 0; font-size: 0;}
+#board_list li:first-child{font-weight: bold;border-bottom: 1px solid #333;}
+#board_list li:nth-child(even){background: #ccc;}
+
+#board_list li span{display: inline-block; font-size: 14px; vertical-align: top; text-align: center; padding: 10px 0;}
+
+#board_list li span.board1{width: 60px;}
+#board_list li span.board2{width: 100px;}
+#board_list li span.board3{width: 100px;}
+#board_list li span.board4{width: calc(100% - 660px);}
+#board_list li span.board5{width: 200px;}
+#board_list li span.board6{width: 200px;}
+
+button{padding: 10px 20px;border: none; font-size: 14px;border-radius: 4px;}
